@@ -1,0 +1,142 @@
+@media (min-width: 500px) {
+  .container-1 {
+    display: flex;
+
+    /* align-items: flex-start; *SS/
+    align-items: flex-end;
+    align-items: center;
+    /*flex-direction: column;*/
+  }
+  h1 {
+    color: white;
+  }
+  h2 {
+    color: white;
+    line-height: 15pt;
+  }
+  h4 {
+    line-height: 12pt;
+  }
+}
+body {
+  background-color: #d59902;
+  padding: 5%;
+  padding-top: 1%;
+  text-overflow: normal;
+}
+
+.box-1 {
+  flex: 1;
+  order: 1;
+  background-image: url(1.jpg);
+  height: fit-content;
+  background-size: cover;
+  text-align: center;
+
+  background-repeat: no-repeat;
+  width: auto;
+}
+.box-2 {
+  flex: 1;
+  order: 2;
+
+  align-self: flex-start;
+}
+
+/*
+button {
+  color: white;
+  background: gray;
+  border: none;
+  outline: none;
+  width: 5%; 
+  text-align: left;
+}
+*/
+
+.box-1 {
+  flex-basis: 42%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.box-2 {
+  flex-basis: 58%;
+  padding: 2%;
+}
+.align {
+  text-align: start;
+}
+
+.text-paragraph {
+  justify-content: center;
+  line-height: 12pt;
+}
+polygon {
+  fill: white;
+  transition: 1s fill;
+}
+polygon:hover {
+  fill: burlywood;
+}
+.home {
+  stroke-width: 1px;
+  /* stroke-dasharray: 1; */
+  fill-opacity: 60%;
+}
+.unit01 {
+  stroke-width: 1px;
+
+  fill-opacity: 60%;
+}
+.unit02 {
+  stroke-width: 1px;
+
+  fill-opacity: 60%;
+}
+.unit03 {
+  stroke-width: 1px;
+
+  fill-opacity: 60%;
+}
+.unit04 {
+  stroke-width: 1px;
+
+  fill-opacity: 60%;
+}
+.unit05 {
+  stroke-width: 1px;
+
+  fill-opacity: 60%;
+}
+
+button.hover {
+  fill: whitesmoke;
+}
+
+/*
+
+.button {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 20%;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 1%;
+}
+.button:hover {
+  color: red;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+  font-size: 15pt;
+  background-size: 100%;
+  background-color: white;
+  padding: 1%;
+}
+*/

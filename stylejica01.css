@@ -30,7 +30,7 @@ body {
 .box-1 {
   flex: 1;
   order: 1;
-  background-image: url(1.jpg);
+  background-image: url(general_images/1.jpg);
   height: fit-content;
   background-size: cover;
   text-align: center;
@@ -85,22 +85,21 @@ polygon:hover {
 .unit02 {
   stroke-width: 1px;
 
-  fill-opacity: 60%;
+  fill-opacity: 90%;
 }
 .unit03 {
   stroke-width: 1px;
 
-  fill-opacity: 60%;
+  fill-opacity: 90%;
 }
 .unit04 {
-  stroke-width: 1px;
+  stroke-width: 2px;
 
-  fill-opacity: 60%;
+  fill-opacity: 90%;
 }
 .unit05 {
-  stroke-width: 1px;
-
-  fill-opacity: 60%;
+  stroke-width: 2px;
+  fill-opacity: 90%;
 }
 a {
   text-decoration: none;

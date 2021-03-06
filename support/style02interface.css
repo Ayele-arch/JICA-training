@@ -12,7 +12,6 @@ body {
   color: #d59902;
   font-style: italic;
   font-size: 15pt;
-
   background-color: white;
   padding: 1%;
 }
@@ -27,7 +26,7 @@ body {
 .smallButton {
   background-color: #d59902;
   align-content: center;
-  padding: 1%;
+  padding-left: 10%;
 }
 .container-1 {
   background-image: url(flexbox/back.png);

@@ -23,12 +23,12 @@ body {
   font-size: 15pt;
   background-color: #aa2601;
   padding: 0%;
-  
 }
 .smallButton {
   background-color: #d59902;
   align-content: center;
-  padding: 1%;
+
+  padding-left: 10%;
 }
 .container-1 {
   background-image: url(flexbox/back.png);

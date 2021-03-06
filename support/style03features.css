@@ -28,31 +28,22 @@ body {
 .smallButton {
   background-color: #d59902;
   align-content: center;
-  padding: 1%;
+  padding-left: 10%;
 }
 
 .container-start {
   text-align: center;
-
-  width: 100%;
+  padding-left: 10%;
   background-color: #dc98066e;
-}
-.container-hometab {
-  text-align: center;
-  /* background-size: cover; */
-  background-size: contain;
-  width: 100%;
-  background-color: #dc98066e;
-  background-repeat: no-repeat;
 }
 
 .container-2 {
   display: flex;
   text-align: center;
-  /* align-items: flex-start;
-               align-items: flex-end;
-               align-items: center; 
-               flex-direction: column;*/
+  /*align-items: flex-start;*/
+  /*align-items: flex-end; */
+  align-items: flex center;
+  /* flex-direction: column; */
 }
 .box-1 {
   flex: 1;

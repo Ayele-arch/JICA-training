@@ -35,16 +35,7 @@ body {
 .container-start {
   text-align: center;
   padding-left: 10%;
-  width: 100%;
   background-color: #dc98066e;
-}
-.container-hometab {
-  text-align: center;
-  /* background-size: cover; */
-  background-size: contain;
-  width: 100%;
-  background-color: #dc98066e;
-  background-repeat: no-repeat;
 }
 
 .container-2 {

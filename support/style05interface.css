@@ -1,6 +1,6 @@
 body {
   background-color: rgB(220, 152, 6, 0.4);
-  padding: 2%;
+
   padding-top: 0.2%;
   padding-bottom: 0.2%;
   text-overflow: normal;
@@ -34,15 +34,17 @@ body {
 .moretabs {
   background-position: center;
   text-align: center;
-
+  background-image: url(moretabs/moretabsback.png);
+  background-position: inherit;
   background-size: contain;
-  width: 100%;
+  /* width: 100%;*/
   background-color: #dc98066e;
+  background-repeat: no-repeat;
 }
 
 .container-2 {
   display: flex;
-  padding: 3%;
+
   /* align-items: flex-start;
                align-items: flex-end;
                align-items: center; 
@@ -119,23 +121,47 @@ body {
 }
 .box-18 {
   flex: 1;
-  order: 1;
+  order: 4;
 }
 .box-19 {
   flex: 1;
-  order: 2;
+  order: 5;
 }
 .box-20 {
   flex: 1;
-  order: 3;
+  order: 6;
 }
 .box-21 {
   flex: 1;
-  order: 4;
+  order: 7;
 }
 .box-22 {
   flex: 1;
+  order: 1;
+}
+.box-23 {
+  flex: 1;
+  order: 2;
+}
+.box-24 {
+  flex: 1;
+  order: 3;
+}
+.box-25 {
+  flex: 1;
+  order: 4;
+}
+.box-26 {
+  flex: 1;
   order: 5;
+}
+.box-27 {
+  flex: 1;
+  order: 6;
+}
+.box-28 {
+  flex: 1;
+  order: 7;
 }
 
 .containerHover {
@@ -180,5 +206,5 @@ body {
   font-size: 17px;
   padding: 1%;
   text-align: left;
-  width: 80pt;
+  width: 220pt;
 }

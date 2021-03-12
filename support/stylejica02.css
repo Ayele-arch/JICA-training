@@ -14,6 +14,7 @@ ul {
   list-style-type: none;
   text-align: left;
 }
+
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -22,11 +23,21 @@ a {
   background-color: #aa2601;
   padding: 0%;
 }
+
 ul a {
   text-decoration: none;
   color: rgb(255, 255, 255);
   font-style: italic;
   font-size: 15pt;
+  background-color: #aa2601;
+  padding: 0%;
+}
+
+ul .interfacelink a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 10pt;
   background-color: #aa2601;
   padding: 0%;
 }
@@ -68,4 +79,3 @@ ul a {
   padding: 1%;
   text-align: left;
 }
-

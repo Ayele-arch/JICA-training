@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(46, 163, 91 0.6);
+  background-color: rgB(220, 152, 6, 0.4);
   padding: 5%;
   padding-top: 0.2%;
   padding-bottom: 0.2%;
@@ -9,11 +9,11 @@ body {
 
 .goBack {
   text-decoration: none;
-  color: #ffffff;
+  color: #d59902;
   font-style: italic;
   font-size: 15pt;
 
-  background-color: #2ea15a;
+  background-color: white;
   padding: 1%;
 }
 .goBack a {
@@ -21,11 +21,11 @@ body {
   color: rgb(255, 255, 255);
   font-style: italic;
   font-size: 15pt;
-  background-color: #00682b;
+  background-color: #aa2601;
   padding: 0%;
 }
 .smallButton {
-  background-color: #2ea15a;
+  background-color: #d59902;
   align-content: center;
 
   padding-left: 10%;

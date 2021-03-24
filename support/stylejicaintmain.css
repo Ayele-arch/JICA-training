@@ -1,5 +1,5 @@
 body {
-  padding: 10%;
+  padding: 20%;
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   background-color: #dc9806;
@@ -78,13 +78,4 @@ ul .interfacelink a {
   font-size: 20px;
   padding: 1%;
   text-align: left;
-}
-
-#interfacestudy{
-  background-size: 100%;
-  padding:20%;
-
-}
-#outerinterface{
-  background-color: #aa2601;
 }
